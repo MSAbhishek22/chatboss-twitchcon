@@ -84,7 +84,7 @@ python3 run.py test
 
 ### 6. Twitch IRC path (real chat, no token for reading)
 
-`chatboss/twitch_irc.py` parses real Twitch IRC PRIVMSG lines
+`chatboss/irc.py` parses real Twitch IRC PRIVMSG lines
 (`irc.chat.twitch.tv` format, with or without tags) and feeds them
 into the **same** `ChatBossGame.handle_chat()` parser used by sim
 mode, so live and sim behaviour cannot drift.
